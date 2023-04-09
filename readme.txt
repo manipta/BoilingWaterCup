@@ -1,3 +1,4 @@
+Animation can be watched [here](https://www.instagram.com/reel/CqCVc5-NIFn/?utm_source=ig_web_copy_link)
 Note:
 required for assignment 1 is done:
 	1. 1500 particles included
