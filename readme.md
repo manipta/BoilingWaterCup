@@ -1,20 +1,27 @@
 Animation can be watched [here](https://www.instagram.com/reel/CqCVc5-NIFn/?utm_source=ig_web_copy_link)
+
 Note:
+
 required for assignment 1 is done:
+
 	1. 1500 particles included
 	2. force of gravity and friction is added
 	3. collision handelling is done to kill particle at the top
 	4. particles always remain in the scene
  	5. we are using blender for this
+  
 additional:
+
 	1. aesthetic look
 	2. camera is rotating
 	3. steam is added(using volume)
-as the project is a little longer i will tell some steps to the main functionalities/objective to the project. 
+ 
+as the project is a little longer, I will tell some steps to the main functionalities/objectives to the project. 
+
 We're going to start off by making a little container and we're going to create some bubbles with some particles and create a displaced surface. 
 hit A to select all x to delete
 
-**making of cup
+## making of cup
 start off with a cylinder (shift+a cylinder). 
 hit S to scale and let's grab Z bring it up so it's sitting on the ground 
 go into edit mode, hit 3 on your keypad to go to face mode 
@@ -30,7 +37,7 @@ switch to transparent mode, go into side view, hit B to box select and deselect 
 hit G and Z and just bring it up until it got a nice thick bottom 
 get out of transparent mode
 
-**adding modifiers
+## adding modifiers
 
 come over to modifiers 
 add in a bevel modifier 
@@ -40,9 +47,9 @@ right click on cup shade smooth
 
 we got the cup. 
 
-**to emit the bubbles and destroying them
+## to emit the bubbles and destroying them
 
-***emitter
+### emitter
 
 select the base, which is the perfect size we need because it fits just right in the bottom of the cup.
 hit shift to duplicate. 
@@ -52,7 +59,7 @@ shift D to duplicate and then grab Z and bring this up
 it will be the surface of water. 
 remove unrequired modifiers now
 
-***in surface
+### in surface
 
 add in a displacement modifier 
 Click new for a new texture. 
@@ -71,7 +78,7 @@ wherever this empty goes, it's going to take that Voronoi noise pattern with it.
 click on the Z location of this empty 
 type the #frame. ( it will take the current frame of our animation)
 
-**particle system added
+## particle system added
 
 add a UV sphere. shade smooth.
 come to our emitter. particle tab, the plus symbol to create a new particle system And right down ,to render. 
@@ -82,7 +89,7 @@ in particle system, gravity is set to one
 set that to -1,
 problem solved
 
-**kill particles going above
+## kill particles going above
 
 click the surface and go to the physics tab. And on the surface of water, turn on collision. 
 here button called kill particles. Turn that on.
